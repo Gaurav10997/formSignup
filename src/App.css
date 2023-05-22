@@ -1,0 +1,53 @@
+body{
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 3rem;
+  height: 80vh;
+  border-radius: 10px;
+}
+form>input{
+  height: 200px;
+  border-radius: 10px;
+}
+input::placeholder{
+  font-size: 3rem;
+}
+input[type="text"],input[type="password"]
+{
+    font-size:3rem;
+    padding: 15px;
+}
+form>*{
+  border: none;
+}
+p{
+  color: red;
+  font-size: 1.2rem;
+}
+button{
+  width: 20%;
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+
+
+}
+h5{
+  margin: 0;
+  color: green;
+}
+h3{
+  color: red;
+}
